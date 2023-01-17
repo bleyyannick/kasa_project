@@ -1,8 +1,19 @@
 
 import styles from './Home.module.css'; 
+import logo from '../../images/logo.png'
+
+
+import { Banner, ThumbList, Footer, Landscape } from '../../components';
+
 const Home = () => {
+  
   return (
-    <div className={styles.body}>Home</div>
+    <>
+     <Banner img={logo} />
+    <Landscape></Landscape>
+    <ThumbList></ThumbList>
+    <Footer></Footer>
+    </>
   )
 }
 
