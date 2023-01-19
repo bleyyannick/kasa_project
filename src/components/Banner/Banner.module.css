@@ -1,0 +1,9 @@
+.header {
+    margin-top: 1em; 
+    display: flex;
+    justify-content: space-between;
+}
+.navbar_list {
+    display: flex; 
+    list-style-type: none;
+}

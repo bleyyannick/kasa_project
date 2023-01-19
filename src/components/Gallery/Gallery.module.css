@@ -1,0 +1,18 @@
+
+.full_container {
+    display: flex; 
+    width: 500%;  
+}
+
+
+.container {
+    display: flex;
+    height: 415px; 
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.container img {
+    width: 100%; 
+    object-fit: cover;
+}

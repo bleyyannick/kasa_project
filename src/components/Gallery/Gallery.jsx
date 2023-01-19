@@ -1,8 +1,9 @@
-
-
-export const Gallery = () =>  {
+import styles from './Gallery.module.css'
+export const Gallery = ({images}) =>  {
   return (
-    <div>Gallery</div>
+    <div className={styles.full_container}>
+      {images.map(image => <div key={`${image}`} className={styles.container}> <img  alt="c'est cool" src={image}  /> </div>)}
+    </div>
   )
 }
 

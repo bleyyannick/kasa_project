@@ -1,7 +1,15 @@
 
-export const Thumb = (props)  => {
+import { Link } from 'react-router-dom';
+import styles from './Thumb.module.css'
+export const Thumb = ({location})  => {
   return (
-    <div>{props.title}</div>
+    <div className={styles.container}>
+     
+      <Link to={`location/${location.id}`}>
+      <img className={styles.image} alt="location" src={location.cover} />
+      {location.title}
+      </Link>
+    </div>
   )
 }
 

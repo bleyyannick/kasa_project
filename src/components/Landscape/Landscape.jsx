@@ -1,7 +1,9 @@
-
-export const Landscape = () => {
+import styles from './Landscape.module.css'
+export const Landscape = ({img}) => {
   return (
-    <div>Landscape</div>
+    <div className={styles.section}>
+      <img alt="landscape" src={img} />
+    </div>
   )
 }
 
