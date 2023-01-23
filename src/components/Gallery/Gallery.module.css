@@ -1,7 +1,6 @@
 
 .full_container {
-    display: flex; 
-    width: 500%;  
+    display: flex;  
 }
 
 
@@ -10,6 +9,7 @@
     height: 415px; 
     overflow: hidden;
     border-radius: 25px;
+    width: 100%;
 }
 
 .container img {

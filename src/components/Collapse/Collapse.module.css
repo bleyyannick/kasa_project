@@ -1,0 +1,38 @@
+.collapse_container{
+    /* width: 45%; 
+    min-width: 400px;  */
+    height: 100%;  
+    margin-top: 1.4em;
+}
+
+.collapse_title {
+    background: #FF6060;
+    color: white;
+    border-radius: 10px; 
+    padding: 0.8em 1.4em; 
+    font-size: 1.1em;
+    display: flex; 
+    justify-content: space-between;
+}
+.collapse_title p {
+    margin: 0; 
+}
+
+.collapse_text {
+    background: #F6F6F6;
+    color: #FF6060;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 142.6%;
+    padding:2em 1.4em; 
+    min-height: 150px; 
+    height: 200px;
+    border-radius: 10px;
+    line-height: 142.6%;
+}
+
+.collapse_closed {
+    display : none; 
+}

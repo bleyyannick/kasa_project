@@ -1,7 +1,7 @@
-
-export const Tag = () => {
+import styles from './Tag.module.css'
+export const Tag = ({text}) => {
   return (
-    <div>Tag</div>
+    <div className={styles.tag}>{text}</div>
   )
 }
 

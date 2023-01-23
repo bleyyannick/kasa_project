@@ -1,9 +1,28 @@
 .header {
-    margin-top: 1em; 
+    margin: 1.4em 0;
     display: flex;
     justify-content: space-between;
 }
+
+.header img {
+    width: 200px; 
+}
 .navbar_list {
-    display: flex; 
+    display: flex;
     list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    width: 100%;
+    justify-content: space-between;
+}
+.navbar_list li a {
+    color: #FF6060;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: center;
 }

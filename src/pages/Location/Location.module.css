@@ -3,3 +3,31 @@
    margin-top: 0; 
    margin-bottom: 0;
 }
+.container_tag {
+   display: flex; 
+}
+.container_introduction {
+   width: 50%; 
+}
+.container_section {
+   width: 100%; 
+   display: flex; 
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.collapseWrapper {
+   flex-basis: 47%;
+}
+
+.owner_location {
+   width: 64px; 
+   height: 64px; 
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.container_info {
+   display: flex;
+   margin: 1em 0;
+}
