@@ -1,10 +1,11 @@
 import styles from './About.module.css'
-import { Banner, Collapse, Landscape } from '../../components';
+import { Banner, Collapse, Footer, Landscape } from '../../components';
 import logo from '../../images/logo.png';
 import landscape from '../../images/landscape_about.jpg';
 
 const About = () => {
   return (
+   <>
     <div className={styles.container}>
       <Banner img={logo} />
       <Landscape img={landscape} />
@@ -28,6 +29,8 @@ const About = () => {
         />
       </section>
     </div>
+    <Footer logo={logo} text={"© 2020 Kasa. All rights reserved"}/>
+   </>
   )
 }
 export default About; 

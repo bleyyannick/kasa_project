@@ -16,7 +16,5 @@ export function Rating({rate}) {
 
     })
 
-    return <div>
-        {template}
-    </div>
+    return <div>{template}</div>
 }
