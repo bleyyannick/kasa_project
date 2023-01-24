@@ -1,0 +1,23 @@
+.arrow_slide {
+    position: absolute;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .arrow_slide img {
+    pointer-events: none;
+  }
+  .prev {
+    top: 50%;
+    left: 20px;
+    transform: translateY(-60%);
+  }
+  .next {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-60%);
+  }
+  
+  

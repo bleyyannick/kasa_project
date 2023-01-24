@@ -5,6 +5,10 @@
     margin-top: 1.4em;
 }
 
+.collapse_container_about {
+    width: 80%; 
+}
+
 .collapse_title {
     background: #FF6060;
     color: white;

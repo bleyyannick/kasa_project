@@ -9,12 +9,13 @@ const Location = () => {
   const { id } = useParams();
 
   const location = locations.find(location => location.id === id);
+  const imagesLocationNumber = location.pictures.length;
   const tags = location.tags.map(tag => <Tag key={tag} text={tag} />)
   return (
     <>
       <div className={styles.container}>
         <Banner img={logo} />
-        <Gallery images={location.pictures} />
+        <Gallery images={location.pictures} dataLength={imagesLocationNumber} />
         <section className={styles.container_info}>
           <div className={styles.container_introduction}>
             <h2>{location.title}</h2>
