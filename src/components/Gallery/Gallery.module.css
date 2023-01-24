@@ -46,3 +46,12 @@
   .active_anim {
     opacity: 1;
   }
+
+  .container_index {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    font-size: 24px;
+    display: flex;
+    color: white; 
+  }

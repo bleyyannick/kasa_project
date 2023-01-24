@@ -12,7 +12,7 @@ export const Collapse = ({title,text}) => {
   const handleClick = ()=> {
     setIsOpen(!isOpen)
   }
-  const equipementText = typeof text === "object" ? text.map( text => <li key={text}> {text}</li>) : text
+  const equipementText = typeof text === "object" ? text.map( text => <p className={styles.collapse_list} key={text}> {text}</p>) : text
   return (
     <div className={styles.collapse_container}>
       <div className={styles.collapse_title}> 
@@ -21,7 +21,7 @@ export const Collapse = ({title,text}) => {
         src={arrowState} 
         onClick={handleClick}/>
       </div>
-      <div className={collapseState}>
+      <div className={`${collapseState}`}>
         {equipementText}
       </div>
     </div>

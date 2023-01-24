@@ -26,3 +26,10 @@
     width: 200px;
     justify-content: center;
 }
+
+
+@media (min-width: 330px)  and (max-width: 500px){
+    .header {
+        background-color: aquamarine;
+    }
+  }

@@ -3,7 +3,7 @@ import styles from './Banner.module.css';
 export const Banner = ({ img}) => {
     return (
       <header className={styles.header}>
-        <img alt="logo" src={img} width="200" />
+        <img alt="logo" src={img} className={styles.img_size} />
         <nav className={styles.navbar}>
           <ul className={styles.navbar_list}>
             <li>

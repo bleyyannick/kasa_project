@@ -1,7 +1,6 @@
 .collapse_container{
     /* width: 45%; 
-    min-width: 400px;  */
-    height: 100%;  
+    min-width: 400px;  */ 
     margin-top: 1.4em;
 }
 
@@ -29,14 +28,18 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 142.6%;
-    padding:2em 1.4em; 
+    line-height: 142.6%; 
     min-height: 150px; 
     height: 200px;
     border-radius: 10px;
     line-height: 142.6%;
+    padding: 2em 1em;
 }
 
 .collapse_closed {
     display : none; 
+}
+
+.collapse_list {
+    margin:0; 
 }
