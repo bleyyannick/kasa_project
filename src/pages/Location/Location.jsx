@@ -3,6 +3,7 @@ import logo from '../../images/logo.png'
 import { Banner, Collapse, Footer, Gallery, Tag, Rating } from '../../components'
 import { useParams } from 'react-router-dom'
 import { locations } from '../../data/logements'
+import CollapseWrapper from '../../components/CollapseWrapper/CollapseWrapper'
 
 const Location = () => {
 
@@ -22,7 +23,7 @@ const Location = () => {
             <h3>{location.location}</h3>
             <div className={styles.container_tag}>{tags}</div>
           </div>
-          <div className={styles.container_introduction_notation} >
+          <div className={styles.container_introduction_notation}>
             <div>
               <p>{location.host.name}</p>
               <img className={styles.img_location} alt="host face" src={location.host.picture} />
@@ -31,12 +32,12 @@ const Location = () => {
           </div>
         </section>
         <section className={styles.container_section}>
-          <div className={styles.collapseWrapper}>
+          <CollapseWrapper>
             <Collapse title={"Description"} text={location.description} />
-          </div>
-          <div className={styles.collapseWrapper}>
+          </CollapseWrapper>
+          <CollapseWrapper>
             <Collapse title={"Equipements"} text={location.equipments} />
-          </div>
+          </CollapseWrapper>
         </section>
       </div>
       <Footer logo={logo} text={"© 2020 Kasa. All rights reserved"} />

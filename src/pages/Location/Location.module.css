@@ -19,10 +19,6 @@
    flex-wrap: wrap;
 }
 
-.collapseWrapper {
-   flex-basis: 47%;
-}
-
 .img_location {
    width: 64px; 
    height: 64px; 

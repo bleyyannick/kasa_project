@@ -1,6 +1,4 @@
 .collapse_container{
-    /* width: 45%; 
-    min-width: 400px;  */ 
     margin-top: 1.4em;
 }
 
@@ -46,7 +44,7 @@
     margin:0; 
 }
 
-@media (min-width: 330px)  and (max-width: 780px){
+@media (min-width: 300px)  and (max-width: 780px){
     .collapseWrapper {
         width: 100%; 
     }

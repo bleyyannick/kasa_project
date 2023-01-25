@@ -28,7 +28,7 @@
 }
 
 
-@media (min-width: 330px)  and (max-width: 780px){
+@media (min-width: 300px)  and (max-width: 780px){
     .header img {
       width: 130px;
     }
