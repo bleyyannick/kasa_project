@@ -12,6 +12,7 @@
     height: 100%;
     min-height: 125px;
     object-fit: cover;
+    filter: brightness(60%);
 }
 
 
