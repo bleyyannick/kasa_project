@@ -5,11 +5,18 @@
     display: flex;
     overflow: hidden;
     border-radius: 25px;
-
 }
 
 .section  img {
     width: 100%;
     height: 100%;
-    height: auto;
+    min-height: 125px;
+    object-fit: cover;
+}
+
+
+@media (min-width: 330px)  and (max-width: 780px){
+    .section{
+        margin-bottom: 0; 
+    }
 }

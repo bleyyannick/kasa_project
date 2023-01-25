@@ -27,13 +27,15 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.1rem;
     line-height: 142.6%; 
     min-height: 150px; 
     height: 200px;
     border-radius: 10px;
     line-height: 142.6%;
     padding: 2em 1em;
+
+    
 }
 
 .collapse_closed {
@@ -42,4 +44,17 @@
 
 .collapse_list {
     margin:0; 
+}
+
+@media (min-width: 330px)  and (max-width: 780px){
+    .collapseWrapper {
+        width: 100%; 
+    }
+
+    .collapse_text {
+        min-width: min-content;
+        min-height: auto;
+    }
+
+
 }

@@ -28,8 +28,11 @@
 }
 
 
-@media (min-width: 330px)  and (max-width: 500px){
-    .header {
-        background-color: aquamarine;
+@media (min-width: 330px)  and (max-width: 780px){
+    .header img {
+      width: 130px;
+    }
+    .navbar {
+        width: 120px;
     }
   }

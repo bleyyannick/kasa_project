@@ -3,3 +3,20 @@
     margin-top: 0; 
     margin-bottom: 0;
  }
+
+
+ .collapse_section {
+    width: 87%;
+    margin: auto;
+ }
+
+
+ @media (min-width: 330px)  and (max-width: 780px){
+    .container {
+      margin: 1em 1em; 
+    }
+    .collapse_section {
+        width: 100%;
+     }
+
+ }

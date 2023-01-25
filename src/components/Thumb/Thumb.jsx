@@ -7,7 +7,7 @@ export const Thumb = ({location})  => {
      
       <Link to={`location/${location.id}`}>
       <img className={styles.image} alt="location" src={location.cover} />
-      {location.title}
+      <p>{location.title}</p>
       </Link>
     </div>
   )

@@ -9,7 +9,7 @@ const About = () => {
     <div className={styles.container}>
       <Banner img={logo} />
       <Landscape img={landscape} />
-      <section>
+      <section className={styles.collapse_section}>
         <Collapse
          width="100%"
          title="Fiabilité"

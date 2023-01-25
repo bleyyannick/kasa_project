@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 
 export const Collapse = ({title,text}) => {
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(false)
   const collapseState = isOpen ? styles.collapse_text : styles.collapse_closed; 
   const arrowState = isOpen ? arrow : arrowDown
   const handleClick = ()=> {
