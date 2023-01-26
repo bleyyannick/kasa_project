@@ -30,6 +30,9 @@
     height: 340px;
     margin: 1em 0 1em 0;
   }  
-    
+  
+  .container p {
+    left: 10px;
+  }
 
 }

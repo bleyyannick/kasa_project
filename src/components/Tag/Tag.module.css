@@ -11,3 +11,11 @@
    padding: .6em 1.2em;
    width: 100px; 
 }
+
+
+@media (min-width: 330px)  and (max-width: 780px){
+
+   .tag {
+      margin-top: .3em; 
+   }
+}
