@@ -19,5 +19,11 @@
     right: 20px;
     transform: translateY(-60%);
   }
-  
+  @media (min-width: 300px)  and (max-width: 780px){
+    .arrow_slide img {
+      width: 20px; 
+    }
+
+
+  }
   

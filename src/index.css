@@ -3,7 +3,7 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-@media (min-width: 330px)  and (max-width: 780px){
+@media (min-width: 300px)  and (max-width: 780px){
   body {
     font-size: 0.9em; 
   }
