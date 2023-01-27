@@ -1,13 +1,10 @@
 import styles from './About.module.css'
-import { Banner, Collapse, Footer, Landscape } from '../../components';
-import logo from '../../images/logo.png';
+import { Collapse, Landscape } from '../../components';
 import landscape from '../../images/landscape_about.jpg';
 
 const About = () => {
   return (
    <>
-    <div className={styles.container}>
-      <Banner img={logo} />
       <Landscape img={landscape} />
       <section className={styles.collapse_section}>
         <Collapse
@@ -28,8 +25,6 @@ const About = () => {
          text="La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes."
         />
       </section>
-    </div>
-    <Footer logo={logo} text={"© 2020 Kasa. All rights reserved"}/>
    </>
   )
 }

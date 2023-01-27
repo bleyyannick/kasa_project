@@ -1,21 +1,24 @@
-import styles from './Location.module.css'
-import logo from '../../images/logo.png'
-import { Banner, Collapse, Footer, Gallery, Tag, Rating } from '../../components'
+import styles from './Location.module.css';
+import { Collapse, Gallery, Tag, Rating } from '../../components'
 import { useParams } from 'react-router-dom'
 import { locations } from '../../data/logements'
-import CollapseWrapper from '../../components/CollapseWrapper/CollapseWrapper'
+import CollapseWrapper from '../../components/CollapseWrapper/CollapseWrapper';
+import ErrorPage from '../ErrorPage/ErrorPage';
 
 const Location = () => {
 
   const { id } = useParams();
 
   const location = locations.find(location => location.id === id);
-  const imagesLocationNumber = location.pictures.length;
+  if(!location) {
+    return <ErrorPage />
+  }
+  const imagesLocationNumber = location.pictures.length 
+  
   const tags = location.tags.map(tag => <Tag key={tag} text={tag} />)
+  
   return (
     <>
-      <div className={styles.container}>
-        <Banner img={logo} />
         <Gallery images={location.pictures} dataLength={imagesLocationNumber} />
         <section className={styles.container_info}>
           <div className={styles.container_introduction}>
@@ -38,9 +41,7 @@ const Location = () => {
           <CollapseWrapper>
             <Collapse title={"Equipements"} text={location.equipments} />
           </CollapseWrapper>
-        </section>
-      </div>
-      <Footer logo={logo} text={"© 2020 Kasa. All rights reserved"} />
+        </section> 
     </>
   )
 }

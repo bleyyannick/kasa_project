@@ -6,17 +6,12 @@
 }
 
 
-
 @media (min-width: 300px)  and (max-width: 780px){
-
     .container {
-        margin: 1em 1em;
-        margin-top: 0; 
-        margin-bottom: 0;
-        min-height: 80vh;
+       margin: 1em 1em;
+       margin-top: 0; 
+       margin-bottom: 0;
+       min-height: 80vh; 
     }
-    
-
-
 
 }

@@ -6,4 +6,5 @@ export * from "./Tag/Tag";
 export * from "./Thumb/Thumb";
 export * from "./ThumbList/ThumbList";
 export * from "./Landscape/Landscape";
-export * from './Rating/Rating'
+export * from "./Rating/Rating";
+export * from "./RootLayout/RootLayout";
