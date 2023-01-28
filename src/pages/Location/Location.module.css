@@ -1,4 +1,6 @@
-
+a{
+   text-decoration: none;
+}
 .container_tag {
    display: flex; 
 }
