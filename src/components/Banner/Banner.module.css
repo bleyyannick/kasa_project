@@ -19,7 +19,9 @@
 .navbar_list li a {
     color: #FF6060;
 }
-
+.navbar_list li a:hover {
+    border-bottom: 2px solid #FF6060;
+}
 .navbar{
     display: flex;
     align-items: center;
