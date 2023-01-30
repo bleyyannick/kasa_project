@@ -3,9 +3,10 @@ import { Collapse, Landscape } from '../../components';
 import landscape from '../../images/landscape_about.jpg';
 
 const About = () => {
+  const page ="about"
   return (
    <>
-      <Landscape img={landscape} />
+      <Landscape img={landscape} page={page} />
       <section className={styles.collapse_section}>
         <Collapse
          width="100%"

@@ -5,9 +5,10 @@ import landscape from '../../images/landscape_home.jpg';
 import { ThumbList, Landscape } from '../../components';
 
 const Home = () => {
+  const page = "home"
   return (
    <>
-      <Landscape img={landscape}></Landscape>
+      <Landscape page={page} img={landscape}></Landscape>
       <ThumbList></ThumbList>
   </>
   )
