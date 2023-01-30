@@ -39,4 +39,8 @@
     .responsive {
         display:block; 
     }
+
+    .about {
+        height: 223px; 
+    }
 }
